@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 8px 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 100px 20px;
+            height: 100vh;
+        }
+
+        #start {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        #aboutme {
+            background-color: #ddd;
+        }
+
+        #profession {
+            background-color: #c4c4c4;
+        }
+
+        #hobbies {
+            background-color: #aaa;
+        }
+
+        #contact {
+            background-color: #888;
+            color: white;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#profession">Profession</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="start">
+        <h1>Welcome to My Page</h1>
+        <p>This is the starting section of my single-page website.</p>
+    </section>
+
+    <section id="aboutme">
+        <h2>About Me</h2>
+        <p>Here, you can learn more about me and my background.</p>
+    </section>
+
+    <section id="profession">
+        <h2>Profession</h2>
+        <p>This section highlights my professional life and achievements.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>Learn about the things I love to do in my free time.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with me through this section.</p>
+    </section>
+</body>
+</html>
